@@ -1,0 +1,121 @@
+#loginbox{
+    text-align:center;
+    /* border:1px solid black;
+    border-radius:40px; */
+    width:500px;
+    height:570px;
+    margin:5% 0 0 37%;
+}
+
+#loginbox>.logo img{
+    width:130px;
+    padding:30px 0 20px 0;
+}
+.logo::after{
+    content:"";
+    display:block;
+    background-color:black;
+    width:400px;
+    height:2px;
+    margin-left:10%;
+}
+
+.login{
+    border:1px solid rgb(22 121 155 / 70%);
+    width:408px;
+    height:61px;
+    font-size:18px;
+    font-weight:500;
+    background-color:rgb(22 121 155 / 70%);
+    line-height:3.5;
+    margin-left:46px;
+}
+.login:hover{
+    background-color:rgba(10, 71, 92, 0.7);
+}
+.login a{
+    color:white;
+}
+form{
+    margin-top:20px;
+}
+form .input{
+    width:390px;
+    height:54px;
+    margin-bottom:10px;
+    font-size:15px;
+    padding-left:12px;
+    font-weight:bold;
+}
+.save{
+    text-align:left;
+    padding-left:47px;
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+input[type="checkbox"]{
+    position:relative;
+    top:-1px;
+    vertical-align: middle;
+}
+.loginID{
+    margin-top:10px;
+    margin-left:3%;
+}
+.loginID>ul>li{
+    display:inline-block;
+    font-size:13px;
+    padding-right:10px;
+}
+.loginID>ul>li:first-child::after{
+    content:"";
+    display:block;
+    width:1px;
+    height:15px;
+    background-color:black;
+    position:relative;
+    right: -72px;
+    top:-15px;
+}
+.kakao{
+    border:1px solid #fae101;
+    border-radius:50px;
+    width:400px;
+    height:55px;
+    background-color:#fae101;
+    margin-left:50px;
+    margin-top:13px;
+}
+.kakao>p{
+    padding-top:19px;
+}
+.kakao a{
+    font-size:15px;
+    font-weight:bold;
+}
+.kakao img{
+    padding:2px 7px 0 0;
+}
+.NaverApple{
+    margin:15px 0 0 50px;
+    width:400px;
+}
+.NaverApple>ul{
+    display:flex;
+    justify-content:space-between;
+}
+.NaverApple>ul>li{
+    border:1px solid #d4d4d4;
+    border-radius:50px;
+    width:193px;
+    height:35px;
+    font-size:15px;
+    padding-top:15px;
+}
+.NaverApple img{
+    padding-right:7px;
+}
+.NaverApple>ul>li:first-child img{
+    padding-top:3px;
+}
